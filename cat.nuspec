@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <!-- Required elements-->
+        <id>Naxam.Cat.Droid</id>
+        <version>1.0.4-pre1</version>
+        <description>Xamarin Binding Library - Cat</description>
+        <authors>Do Thanh Binh</authors>
+        <owners>NAXAM CO.,LTD</owners>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <title>Naxam - Cat</title>
+        <releaseNotes>Cat v1.0.4</releaseNotes>
+        <summary>Xamarin Binding Library - Cat</summary>
+        <licenseUrl>https://opensource.org/licenses/MIT</licenseUrl>
+        <projectUrl>https://github.com/NAXAM/cat-android-binding</projectUrl>
+        <copyright>Copyright (c) 2017 NAXAM</copyright>
+        <tags>Xamarin.Android, cat</tags>
+        <dependencies>
+            <!--<dependency id="Xamarin.Android.Support.Design" version="24.2.1" />
+            <dependency id="Xamarin.Android.Support.v4" version="24.2.1" />
+            <dependency id="Xamarin.Android.Support.v7.AppCompat" version="24.2.1" />-->
+        </dependencies>
+    </metadata>
+    <!-- Optional 'files' node -->
+    <files>
+        <file src="Naxam.Cat.Droid/bin/Release/Naxam.Cat.Droid.dll" target="lib/MonoAndroid10/Naxam.Cat.Droid.dll" />
+    </files>
+</package>
